@@ -6,7 +6,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between; 
+    justify-content: center;
     align-items: center;
     background-color: #0f172a; 
     padding: 1rem 5%;
@@ -131,4 +131,66 @@ h1, h2, h3 {
 .bio strong {
           
     font-weight: 600;
+}
+
+
+#projetos {
+    padding: 60px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 30px;
+}
+
+
+.projeto-card {
+    background-color: #ffffff; 
+    border: 2px solid #334155;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 800px; 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.projeto-card:hover {
+    transform: translateY(-5px); 
+    border-color: #09012c;     
+}
+
+
+.projeto-card a {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #033c92;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.projeto-card a:hover {
+    background-color: rgba(0, 76, 218, 0.1);
+}
+
+
+header {
+    width: 100%;
+   
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
