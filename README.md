@@ -23,7 +23,7 @@ Contato: Integração com LinkedIn, GitHub e link direto para e-mail.
 🚀 Como Visualizar
 O projeto está publicado e pode ser acessado através do link abaixo:
 
-[[INSERIR LINK DO GITHUB PAGES OU VERCEL AQUI](https://rodrigo0024.github.io/Meu-portf-lio-profissional-interativo---TrendsIT-2026/)]
+[[Clique para ver o portifolio](https://rodrigo0024.github.io/Meu-portf-lio-profissional-interativo---TrendsIT-2026/)]
 
 🔧 Processo de Desenvolvimento
 Seguindo os marcos definidos no planejamento:
